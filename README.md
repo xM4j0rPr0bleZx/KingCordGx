@@ -40,7 +40,8 @@ Edit the variables in [`src/KingCordGx.css`](src/KingCordGx.css) to change the b
 
 ## Attribution
 
-The base theme engine is provided by [L-Ratio/OperaGXTheme](https://github.com/L-Ratio/OperaGXTheme). KingCordGx contains the configuration and branding maintained by xM4j0rPr0bleZx.
+The base theme engine is provided by [L-Ratio/OperaGXTheme](https://github.com/L-Ratio/OperaGXTheme). 
+KingCordGx contains the configuration and branding maintained by xM4j0rPr0bleZx.
 
 ## License
 
