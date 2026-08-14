@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies and build output
+node_modules/
+coverage/
+.cache/
+*.log
+
+# Local theme copies
+*.local.theme.css
