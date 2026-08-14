@@ -1,8 +1,8 @@
 /**
  * @name KingCordGx
  * @author xM4j0rPr0bleZx
- * @version 1.1.0
- * @description A polished Opera GX-inspired Discord theme with smoked violet glass and neon magenta accents.
+ * @version 1.2.0
+ * @description An Opera GX-inspired Discord theme with purple liquid artwork, smoked violet glass, and a custom neon Home icon.
  * @source https://github.com/xM4j0rPr0bleZx/KingCordGx
  * @website https://xm4j0rpr0blezx.github.io/KingCordGx/
  * @updateUrl https://xm4j0rpr0blezx.github.io/KingCordGx/dist/KingCordGx.theme.css
@@ -11,7 +11,7 @@
 @import url("https://l-ratio.github.io/OperaGXTheme/release/main.css");
 
 :root {
-  --background: url("https://i.imgur.com/EdSK9qf.jpeg");
+  --background: url("https://xm4j0rpr0blezx.github.io/KingCordGx/assets/kingcord-background.jpg");
   --background-behind-appmount: 7, 2, 14;
   --background-accent-color-1: 232, 45, 255, 1;
   --accent-color-1: 232, 45, 255;
@@ -180,4 +180,36 @@ body::before {
 
 ::-webkit-scrollbar-track {
   background: rgba(var(--kingcord-glass), 0.24) !important;
+}
+
+/* Replace Discord's Home mark with the custom neon galaxy logo. */
+[data-list-item-id="guildsnav___home"] {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50% !important;
+  background:
+    rgb(5, 0, 20)
+    url("https://xm4j0rpr0blezx.github.io/KingCordGx/assets/kingcord-discord-logo.jpeg")
+    center / cover no-repeat !important;
+  box-shadow:
+    0 0 16px rgba(var(--kingcord-accent), 0.72),
+    0 0 7px rgba(0, 234, 255, 0.58);
+  transition:
+    border-radius 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+[data-list-item-id="guildsnav___home"]:hover {
+  border-radius: 34% !important;
+  box-shadow:
+    0 0 24px rgba(var(--kingcord-accent), 0.9),
+    0 0 12px rgba(0, 234, 255, 0.74);
+  transform: scale(1.04);
+}
+
+[data-list-item-id="guildsnav___home"] [class*="childWrapper_"],
+[data-list-item-id="guildsnav___home"] svg {
+  opacity: 0 !important;
+  background: transparent !important;
 }

@@ -1,6 +1,9 @@
 # Assets
 
-Store KingCordGx screenshots, preview banners, icons, and other project media in this directory.
+KingCordGx artwork used by the published theme lives in this directory.
+
+- `kingcord-background.jpg` — purple liquid theme background
+- `kingcord-discord-logo.jpeg` — neon galaxy artwork used for Discord's Home button
 
 Suggested files:
 
