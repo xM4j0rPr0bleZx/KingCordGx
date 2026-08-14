@@ -1,0 +1,184 @@
+/**
+ * @name KingCordGx
+ * @author xM4j0rPr0bleZx
+ * @version 1.0.0
+ * @description A regal black-and-gold Discord theme for Vencord and BetterDiscord.
+ * @source https://github.com/xM4j0rPr0bleZx/KingCordGx
+ * @website https://xm4j0rpr0blezx.github.io/KingCordGx/
+ */
+
+/* KingCordGx — source theme */
+:root {
+  --king-gold: #d8ad46;
+  --king-gold-bright: #f1cf72;
+  --king-gold-muted: #8d7138;
+  --king-bg: #090a0d;
+  --king-surface: #111318;
+  --king-surface-2: #181b22;
+  --king-surface-3: #20242c;
+  --king-text: #f6f1e5;
+  --king-text-muted: #aaa69c;
+  --king-danger: #e45b65;
+  --king-success: #50c878;
+  --king-radius: 12px;
+  --king-glow: 0 0 18px rgb(216 173 70 / 18%);
+
+  --background-primary: var(--king-surface);
+  --background-secondary: var(--king-bg);
+  --background-secondary-alt: #0d0f13;
+  --background-tertiary: #07080a;
+  --background-floating: var(--king-surface-2);
+  --background-modifier-hover: rgb(216 173 70 / 9%);
+  --background-modifier-active: rgb(216 173 70 / 14%);
+  --background-modifier-selected: rgb(216 173 70 / 18%);
+  --background-modifier-accent: rgb(216 173 70 / 20%);
+  --channeltextarea-background: var(--king-surface-2);
+  --input-background: var(--king-surface-2);
+  --modal-background: var(--king-surface);
+  --modal-footer-background: #0d0f13;
+  --text-normal: var(--king-text);
+  --text-muted: var(--king-text-muted);
+  --text-link: var(--king-gold-bright);
+  --interactive-normal: #c8c2b5;
+  --interactive-hover: var(--king-gold-bright);
+  --interactive-active: var(--king-text);
+  --interactive-muted: #65645f;
+  --brand-500: var(--king-gold);
+  --brand-560: #bd9134;
+  --brand-600: #a77c29;
+  --status-positive: var(--king-success);
+  --status-danger: var(--king-danger);
+  --scrollbar-thin-thumb: var(--king-gold-muted);
+  --scrollbar-auto-thumb: var(--king-gold-muted);
+  --scrollbar-auto-track: var(--king-bg);
+}
+
+body,
+.appMount__51fd7 {
+  background: var(--king-bg);
+}
+
+::selection {
+  color: var(--king-bg);
+  background: var(--king-gold-bright);
+}
+
+/* Guild rail and sidebars */
+.wrapper_ef3116,
+.sidebar_c48ade,
+.container__2637a {
+  background-color: var(--king-bg);
+}
+
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
+.wrapper__6e9f8:hover .childWrapper__6e9f8 {
+  color: var(--king-bg);
+  background: linear-gradient(135deg, var(--king-gold-bright), var(--king-gold));
+  box-shadow: var(--king-glow);
+}
+
+.item__58105 {
+  background-color: var(--king-gold-bright);
+}
+
+/* Channels, messages, and members */
+.modeSelected__2ea32 .link__2ea32,
+.modeSelected__2ea32:hover .link__2ea32 {
+  border-left: 2px solid var(--king-gold);
+  background: linear-gradient(90deg, rgb(216 173 70 / 18%), transparent);
+}
+
+.message__5126c:hover {
+  background: rgb(216 173 70 / 4%);
+}
+
+.mentioned__5126c {
+  background: rgb(216 173 70 / 10%);
+}
+
+.mentioned__5126c::before {
+  background: var(--king-gold);
+}
+
+.repliedMessage_c19a55::before {
+  border-color: var(--king-gold-muted);
+}
+
+.username_c19a55,
+.headerText_c19a55 {
+  text-shadow: 0 0 14px rgb(216 173 70 / 8%);
+}
+
+/* Composer, search, cards, popouts, and modals */
+.channelTextArea_f75fb0,
+.searchBar__97492,
+.input__0f084,
+.card__73069,
+.root__49fc1,
+.menu_c1e9c4,
+.messagesPopoutWrap__45690 {
+  border: 1px solid rgb(216 173 70 / 15%);
+  border-radius: var(--king-radius);
+  box-shadow: 0 8px 26px rgb(0 0 0 / 24%);
+}
+
+.channelTextArea_f75fb0:focus-within,
+.input__0f084:focus {
+  border-color: rgb(216 173 70 / 48%);
+  box-shadow: var(--king-glow);
+}
+
+/* Buttons and controls */
+.lookFilled__201d5.colorBrand__201d5 {
+  color: #17120a;
+  background: linear-gradient(135deg, var(--king-gold-bright), var(--king-gold));
+  box-shadow: 0 4px 14px rgb(216 173 70 / 18%);
+}
+
+.lookFilled__201d5.colorBrand__201d5:hover {
+  background: linear-gradient(135deg, #ffe39a, var(--king-gold-bright));
+}
+
+.lookOutlined__201d5.colorBrand__201d5 {
+  color: var(--king-gold-bright);
+  border-color: var(--king-gold-muted);
+}
+
+.control__3f21e:checked,
+.container__87bf1.checked__87bf1 {
+  background-color: var(--king-gold) !important;
+}
+
+/* Links, unread markers, and badges */
+a,
+.anchor_edefb8 {
+  color: var(--king-gold-bright);
+}
+
+.unread__2ea32,
+.numberBadge__2b1f5 {
+  background-color: var(--king-gold);
+  color: var(--king-bg);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background-color: var(--king-gold-muted) !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+/* Keep motion comfortable for users who request less animation. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
