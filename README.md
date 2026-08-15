@@ -1,10 +1,14 @@
 KingCordGx
 
-An Opera GX-inspired Discord theme for Vencord, customized and maintained by xM4j0rPr0bleZx.
+An Opera GX-inspired Discord theme for Vencord, customized and maintained by K1ngKron1c.
 
 KingCordGx combines a dark, translucent interface with purple liquid artwork, neon accents, a custom galaxy Home icon, and the Chakra Petch font.
 
 The theme builds on the upstream OperaGXTheme stylesheet while keeping KingCordGx's configuration, branding, assets, and installation files within this repository.
+
+Project homepage: https://github.com/xM4j0rPr0bleZx/KingCordGx
+
+Discord community: https://discord.gg/tvJgrGxjSF
 
 
 
@@ -180,7 +184,7 @@ This keeps KingCordGx's branding and configuration maintainable while still bene
 
 The base theme engine is provided by L-Ratio/OperaGXTheme.
 
-KingCordGx contains the custom configuration, branding, assets, and installation setup maintained by xM4j0rPr0bleZx.
+KingCordGx contains the custom configuration, branding, assets, and installation setup maintained by K1ngKron1c.
 
 Please support and credit the upstream project where appropriate.
 
