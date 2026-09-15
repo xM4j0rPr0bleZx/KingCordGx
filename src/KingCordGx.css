@@ -29,12 +29,12 @@
   --channels-transparency: 0.76;
   --chat-transparency: 0.68;
   --memberlist-transparency: 0.76;
-  --wintitlebar-background-blur: 8px;
-  --header-background-blur: 9px;
-  --serverlist-background-blur: 8px;
-  --channels-background-blur: 9px;
-  --chat-background-blur: 6px;
-  --memberlist-background-blur: 9px;
+  --wintitlebar-background-blur: 1.6px;
+  --header-background-blur: 1.8px;
+  --serverlist-background-blur: 1.6px;
+  --channels-background-blur: 1.8px;
+  --chat-background-blur: 1.2px;
+  --memberlist-background-blur: 1.8px;
 
   --customFont: Chakra Petch;
   --codeBlocksCustomFont: Chakra Petch;
