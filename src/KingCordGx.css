@@ -1,5 +1,5 @@
 /**
- * @name KingCordGx
+ * @name KingCord
  * @author K1ngKron1c
  * @version 1.2.1
  * @description An Opera GX-inspired Discord theme with purple liquid artwork, smoked violet glass, and a custom neon Home icon.
@@ -29,12 +29,12 @@
   --channels-transparency: 0.76;
   --chat-transparency: 0.68;
   --memberlist-transparency: 0.76;
-  --wintitlebar-background-blur: 16px;
-  --header-background-blur: 18px;
-  --serverlist-background-blur: 16px;
-  --channels-background-blur: 18px;
-  --chat-background-blur: 12px;
-  --memberlist-background-blur: 18px;
+  --wintitlebar-background-blur: 8px;
+  --header-background-blur: 9px;
+  --serverlist-background-blur: 8px;
+  --channels-background-blur: 9px;
+  --chat-background-blur: 6px;
+  --memberlist-background-blur: 9px;
 
   --customFont: Chakra Petch;
   --codeBlocksCustomFont: Chakra Petch;
