@@ -215,3 +215,9 @@ body::before {
   opacity: 0 !important;
   background: transparent !important;
 }
+/* Make the Discord status icon a perfect circle */
+[class*="status"] {
+  border-radius: 50% !important;
+  width: 1em !important;
+  height: 1em !important;
+}
